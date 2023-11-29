@@ -4,44 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ExNatur</title>
+    <link rel="stylesheet" href="/css/estilos.css">
 </head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="/pages/playas.html">Playas</a></li> 
-            <li><a href="/pages/bosques.html">Bosques</a></li>
-            <li><a href="/pages/montañas.html">Montañas</a></li>
-            <li><a href="/pages/preguntas.html">Preguntas</a></li>
-            
-        </ul>
-    </nav>
-    <section>
-        <img src="" alt="">
-        <h1>ExNatur</h1>
-    </section>
+<body  class="fondo fondoinicio">
+
+    <header>
 
     <nav>
-        <ul>
-            <li><a href="/pages/playas.html">Playas</a></li>
-            <li><a href="/pages/bosques.html">Bosques</a></li>    
-            <li><a href="/pages/montañas.html">Montañas</a></li>    
+        <ul class="encabezado"> 
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="./pages/playas.html">Playas</a></li>
+            <li><a href="./pages/bosques.html">Bosques</a></li>
+            <li><a href="./pages/montañas.html">Montañas</a></li>
+            <li><a href="./pages/preguntas.html">Preguntas</a></li>
         </ul>
     </nav>
+    </header>
+    
+    <main>
+        <div class="img-nomb">
+        <img src="img/inicio/imagen-circular.jpg" alt="buzo" class="img-circular">
+        <h1 class="nombre-comp">ExNatur</h1>
+        </div>
+
+    <nav class="cuadrados">
+       
+        <div class="div-cuadro"><img src="img/inicio/cuadrado-playa.jpg" alt="playa"> <a href="/pages/playas.html">Playas</a></div>
+        <div class="div-cuadro"><img src="img/inicio/cuadrado-bosque.jpg" alt="bosque"><a href="/pages/bosques.html">Bosques</a></div> 
+        <div class="div-cuadro"><img src="img/inicio/cuadrado-montaña.jpg" alt="montaña"><a href="/pages/montañas.html">Montañas</a></div>   
+            
+    </nav>
+    </main>
 
     <footer>
-        <p>IMG Instagram</p>
-        <p>IMG Facebook</p>
-        <p>IMG X</p>
-        <P>IMG Whatsapp</P>
-        <nav>
-            <ul>
-                <li>Politica de privacidad</li>
-                <li>Terminos</li>
-                <li>Privacidad</li>
-            </ul>
+        <nav  class="grid-footer">
+        <img src="img/redes-sociales/img-instagram.png" alt="logo-ig"  class="img-foot">
+        <img src="img/redes-sociales/img-facebook.png" alt="logo-fb"  class="img-foot">
+        <img src="img/redes-sociales/img-x.png" alt="logo-x"  class="img-foot">
+        <img src="img/redes-sociales/img-whatsapp.png" alt="logo-whatsapp"  class="img-foot">
+        </nav>
+        
+        <nav class="letras-foot">
+        <a href="#">Politica de privacidad</a>    
+        <a href="#">Terminos</a>    
+        <a href="#">Privacidad</a>    
         </nav>
     </footer>
+    
     
 </body>
 </html>

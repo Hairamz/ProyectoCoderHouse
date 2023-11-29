@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.fondo{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.fondoinicio{
+    background-image: url(../img/inicio/imagen-fondo.jpg);
+   
+}
+.fondoplayas{
+    background-image: url(../img/playas/circulo-playa.jpg);
+    
+}
+.fondobosques{
+    background-image: url(../img/bosques/fondo-bosque.jpg);
+    
+}
+.fondomontañas{
+    background-image: url(../img/montañas/fondo-montaña.jpg);
+}
+.fondopreguntas{
+    background-image: url(../img/preguntas/fondo-pregunta.jpg);
+    
+}
+
+header{
+    background-color:#041d4ea4;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.nombre-comp{
+    padding-top: 200px;
+    padding-left: 200px;
+    padding-bottom: 300px;
+    height: 150px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+color: green;
+font-size: 70px;
+display: flex;
+}
+.img-circular{
+    padding: 40px;
+    height: 400px;
+    width: 400px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-right: 100px;
+    transition: 0.3s;
+}
+nav a:hover{
+    color: black;
+    
+}
+.encabezado{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.img-nomb{
+display: flex;
+}
+
+
+.cuadrados{
+    width: 100%;
+    margin: 0 5px 40px 5px ;
+    display: flex;
+    justify-content: space-around;
+}
+.div-cuadro{
+    text-align: center;
+    background-color:#041d4ea4;
+    padding: 20px 5px;
+    width: 215px;
+}
+.div-cuadro img{
+    
+    height: auto;
+    width: 200px;
+}
+footer{
+    background-color:#041d4ea4;
+    font-family: 'Montserrat', sans-serif;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.letras-foot{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.img-foot{
+    height: 40px;
+    width: 40px;
+}
+.grid-footer{
+    display: grid;
+    grid: 10px;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    justify-items: center;
+}
+
+.cuadro-texto{
+    background-color:#041d4ea4;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    
+}
+
+p{
+    color: white;
+    
+}
+.cuadrotext{
+    background-color:#041d4ea4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: stretch;
+   
+}
+h1{
+    color: white;
+}
+

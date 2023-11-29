@@ -4,32 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preguntas</title>
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="/pages/playas.html">Playas</a></li> 
-            <li><a href="/pages/bosques.html">Bosques</a></li>
-            <li><a href="/pages/montañas.html">Montañas</a></li>
-            <li><a href="/pages/preguntas.html">Preguntas</a></li>
+<body class="fondo fondopreguntas">
+    <header>
+
+        <nav >
             
-        </ul>
-    </nav>
-    <section>
+            <ul class="encabezado">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="./playas.html">Playas</a></li>
+                <li><a href="./bosques.html">Bosques</a></li>
+                <li><a href="./montañas.html">Montañas</a></li>
+                <li><a href="./preguntas.html">Preguntas</a></li>
+            </ul>
+        </nav>
+        </header>
+
+    <main>
+
+    <section id="cuadrotext">
+
         <h1>Preguntas Frecuentes</h1>
+
         <ul>
+
             <li><p>¿Quienes somos?</p></li>
             <li><p>¿Que hacemos?</p></li>    
             <li><p>¿Subir imagenes?</p></li>    
             <li><p>¿Descargar imagenes?</p></li>    
             <li><p>Comunidad</p></li>    
                 
+            </ul>
             
-        </ul>
     </section>
 
-    <aside>
+    <aside >
         <label for="consulta">Haz tu consulta</label>
         <textarea name="" id="consulta" cols="30" rows="10" placeholder="Haz tu consulta" required></textarea>
         <br><br>
@@ -42,23 +52,27 @@
             <li><p>Llamar</p></li>
             <li><p>Mensaje</p></li>    
             <li><p>Correo</p></li>    
-                
-            
         </ul>
+
     </nav>
 
+    </main>
+
     <footer>
-        <p>IMG Instagram</p>
-        <p>IMG Facebook</p>
-        <p>IMG X</p>
-        <P>IMG Whatsapp</P>
-        <nav>
-            <ul>
-                <li>Politica de privacidad</li>
-                <li>Terminos</li>
-                <li>Privacidad</li>
-            </ul>
+        <nav  class="grid-footer">
+        <img src="../img/redes-sociales/img-instagram.png" alt="logo-ig"  class="img-foot">
+        <img src="../img/redes-sociales/img-facebook.png" alt="logo-fb"  class="img-foot">
+        <img src="../img/redes-sociales/img-x.png" alt="logo-x"  class="img-foot">
+        <img src="../img/redes-sociales/img-whatsapp.png" alt="logo-whatsapp"  class="img-foot">
+        </nav>
+        
+        <nav class="letras-foot">
+        <a href="#">Politica de privacidad</a>    
+        <a href="#">Terminos</a>    
+        <a href="#">Privacidad</a>    
         </nav>
     </footer>
+    
+    
 </body>
 </html>

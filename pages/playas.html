@@ -4,31 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Playas</title>
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="/pages/playas.html">Playas</a></li> 
-            <li><a href="/pages/bosques.html">Bosques</a></li>
-            <li><a href="/pages/montañas.html">Montañas</a></li>
-            <li><a href="/pages/preguntas.html">Preguntas</a></li>
-            
-        </ul>
-    </nav>
-    <section>
-        <p>img</p>
-        <h1>Playas</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, beatae? Hic, similique! Deleniti ullam natus commodi quisquam possimus assumenda quidem harum! Dolor amet blanditiis expedita ipsam sit aut ut atque?</p>
-    </section>
+<body class="fondo fondoplayas">
+    <header>
 
-    <article>
+        <nav >
+            <ul class="encabezado">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="./playas.html">Playas</a></li>
+            <li><a href="./bosques.html">Bosques</a></li>
+            <li><a href="./montañas.html">Montañas</a></li>
+            <li><a href="./preguntas.html">Preguntas</a></li>
+            </ul>
+        </nav>
+        </header>
+       
+        <main>
+            
+            <div id="text-principal">
+            <img src="../img/playas/circulo-playa.jpg" alt="plata-tarde" class="img-circular">
+            <h1 class="cuadrotext">Playas</h1>
+        <p class="cuadrotext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, beatae? Hic, similique! Deleniti ullam natus commodi quisquam possimus assumenda quidem harum! Dolor amet blanditiis expedita ipsam sit aut ut atque?</p>
+        </div>
+    
+    
+
+    <article class="cuadrotext">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut corrupti fugit tenetur dicta commodi odio reiciendis nulla ea porro unde? Inventore exercitationem quo ipsa illum nam error! Possimus, repudiandae cumque.</p>
     </article>
-
-    <figure>
-        <p>IMG</p>
-    </figure>
+    
+    
+    <img src="../img/playas/cuadrado-playa.jpg" alt="playa-palmera" class="img-circular">
+    
     <aside>
         <input type="button" value="Descargar imagen">
     </aside>
@@ -36,20 +44,24 @@
     <aside>
         <input type="button" value="Subir imagen">
     </aside>
-
+    </main>
+    
     <footer>
-        <p>IMG Instagram</p>
-        <p>IMG Facebook</p>
-        <p>IMG X</p>
-        <P>IMG Whatsapp</P>
-        <nav>
-            <ul>
-                <li>Politica de privacidad</li>
-                <li>Terminos</li>
-                <li>Privacidad</li>
-            </ul>
+        <nav  class="grid-footer">
+        <img src="../img/redes-sociales/img-instagram.png" alt="logo-ig"  class="img-foot">
+        <img src="../img/redes-sociales/img-facebook.png" alt="logo-fb"  class="img-foot">
+        <img src="../img/redes-sociales/img-x.png" alt="logo-x"  class="img-foot">
+        <img src="../img/redes-sociales/img-whatsapp.png" alt="logo-whatsapp"  class="img-foot">
+        </nav>
+        
+        <nav class="letras-foot">
+        <a href="#">Politica de privacidad</a>    
+        <a href="#">Terminos</a>    
+        <a href="#">Privacidad</a>    
         </nav>
     </footer>
+    
+    
     
 </body>
 </html>
